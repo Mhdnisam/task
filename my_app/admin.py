@@ -15,7 +15,7 @@ from django.contrib import admin
 #
 # admin.site.register(Service)
 # Register your models here.
-from my_app.models import Customer,Products
+from my_app.models import Customer, Products
 
 admin.site.register(Customer)
 admin.site.register(Products)
