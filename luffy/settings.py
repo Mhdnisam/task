@@ -78,10 +78,21 @@ WSGI_APPLICATION = 'luffy.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+
+            'ENGINE': 'django.db.backends.postgresql',
+
+            'NAME': 'onepiece_db',
+
+            'USER': 'mhdnisam',
+
+            'PASSWORD': '858358',
+
+            'HOST': '127.0.0.1',  # Set to the correct host if your DB is hosted elsewhere
+
+            'PORT': '5432',  # Default PostgreSQL port
     }
 }
+
 
 
 # Password validation
